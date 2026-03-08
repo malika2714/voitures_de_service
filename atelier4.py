@@ -25,3 +25,12 @@ class Employee:
             self.voitureservice = voiture
             voiture.chauffeur = self
             print("Voiture affectee avec succes.")
+
+    def retirervoiture(self):
+
+        if self.voitureservice is None:
+            print("Cet employe n'a pas de voiture de service.")
+        else:
+            self.voitureservice.chauffeur = None
+            self.voitureservice = None
+            print("Voiture retiree avec succes.")
