@@ -53,3 +53,6 @@ class Voiture:
        else:
            print(" La voiture appartient a : ", self.chauffeur.nom)
 
+e1=Employee("A0","Malika","Hdd")
+e2=Employee("A1","Nada","Bch")
+e3=Employee("A2","Adem", "Haddad")
