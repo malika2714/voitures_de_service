@@ -14,3 +14,14 @@ class Employee:
             print("Voiture de service : aucune")
         else:
             print("Voiture de service :", self.voitureservice.matricule)
+
+    def affectervoiture(self, voiture):
+        if self.voitureservice is not None:
+            print(" On ne peut pas affecter la voiture car cet employee a deja une voiture de service ")
+
+        elif voiture.chauffeur is not None:
+            print("Cette voiture est deja affectee a un autre employe.")
+        else:
+            self.voitureservice = voiture
+            voiture.chauffeur = self
+            print("Voiture affectee avec succes.")
