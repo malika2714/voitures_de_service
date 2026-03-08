@@ -56,3 +56,7 @@ class Voiture:
 e1=Employee("A0","Malika","Hdd")
 e2=Employee("A1","Nada","Bch")
 e3=Employee("A2","Adem", "Haddad")
+
+v1=Voiture("AO1",2020,"Mercedes", 150000)
+v2=Voiture("AO2",2022,"Jeep", 100000)
+v3=Voiture("AO3",2025,"TOYOTA",30000)
