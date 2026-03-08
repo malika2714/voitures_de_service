@@ -73,3 +73,6 @@ e2.affectervoiture(v2)
 e3.affectervoiture(v3)
 
 e1.retirervoiture()
+
+e1.affectervoiture(v2)
+
