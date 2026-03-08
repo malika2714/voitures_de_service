@@ -71,3 +71,5 @@ v3.afficherInformations()
 e1.affectervoiture(v1)
 e2.affectervoiture(v2)
 e3.affectervoiture(v3)
+
+e1.retirervoiture()
